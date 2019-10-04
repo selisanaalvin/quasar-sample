@@ -1,0 +1,43 @@
+{
+  "name": "quasarios",
+  "version": "0.0.1",
+  "description": "A Quasar Framework app",
+  "productName": "SBC App",
+  "cordovaId": "org.cordova.quasar.app",
+  "author": "black",
+  "private": true,
+  "scripts": {
+    "test": "echo \"No test specified\" && exit 0"
+  },
+  "dependencies": {
+    "@chenfengyuan/vue-qrcode": "^1.0.1",
+    "@quasar/extras": "^1.0.0",
+    "axios": "^0.18.1",
+    "cordova-pdf-generator": "^2.0.8",
+    "google-maps": "^3.3.0",
+    "google-maps-api-loader": "^1.1.1",
+    "jspdf": "^1.5.3",
+    "jspdf-autotable": "^3.2.4",
+    "nedb": "^1.8.0",
+    "nedb-promises": "^4.0.0",
+    "quasar": "^1.0.0",
+    "vue": "^2.6.10",
+    "vue-chart": "^2.0.0",
+    "vue-chartkick": "^0.5.2",
+    "vue-google-maps": "^0.1.21",
+    "vue-plugin-load-script": "^1.2.0",
+    "vue-qrcode-reader": "^2.0.4",
+    "vue2-google-maps": "^0.10.7"
+  },
+  "devDependencies": {
+    "@quasar/app": "^1.0.0"
+  },
+  "engines": {
+    "node": ">= 8.9.0",
+    "npm": ">= 5.6.0",
+    "yarn": ">= 1.6.0"
+  },
+  "browserslist": [
+    "last 1 version, not dead, ie >= 11"
+  ]
+}
